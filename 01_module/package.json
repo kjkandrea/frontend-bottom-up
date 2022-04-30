@@ -3,9 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite before_globalScope",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start:before": "vite before"
   },
   "devDependencies": {
     "vite": "^2.9.5"
