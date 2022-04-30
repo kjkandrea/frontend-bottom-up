@@ -16,7 +16,7 @@
   }());
 
   function CountModel () {
-    let count = 0
+    var count = 0;
 
     function getCount() {
       return count;
