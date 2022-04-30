@@ -1,10 +1,10 @@
-import todos from '../mock'
+import mock from '../mock'
 
 (function () {
   var $app = document.getElementById('app')
 
   function main() {
-    renderTodo(todos);
+    renderTodo(mock);
   }
 
   function renderTodo(todos) {

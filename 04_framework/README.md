@@ -11,13 +11,13 @@ DOM API 를 이용한 컴포넌트 방식의 vanilla javascript 코드는 다음
 ### TODO List : vanilla javascript
 
 ```js
-import todos from '../mock'
+import mock from '../mock'
 
 (function () {
   var $app = document.getElementById('app')
 
   function main() {
-    renderTodo(todos);
+    renderTodo(mock);
   }
 
   function renderTodo(todos) {
