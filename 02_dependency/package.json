@@ -1,0 +1,11 @@
+{
+  "name": "02_dependency",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start:before": "vite before"
+  },
+  "devDependencies": {
+    "vite": "^2.9.5"
+  }
+}
