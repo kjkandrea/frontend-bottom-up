@@ -42,7 +42,7 @@ ES2015 스팩 에는 ESModule 명세가 등장하여 파일단위로 모듈을 �
 // model/count.js
 export default function CountModel { ... }
 
-// main.js
+// main.jsx
 import CountModel from './model/count'
 
 const countModel = new CountModel();

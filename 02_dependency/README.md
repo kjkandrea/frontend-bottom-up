@@ -15,10 +15,10 @@ lodash 는 여러 순수 함수를 제공하는 대표적인 함수형 라이브
 
 ```html
 <script src="./dependencies/lodash.min.js"></script>
-<script src="./main.js"></script>
+<script src="./main.jsx"></script>
 ```
 
-이후 글로벌 스코프 `_` namespace 를 통해 `main.js` 에서 lodash 에 접근하여 순수 함수를 사용할 수 있습니다.
+이후 글로벌 스코프 `_` namespace 를 통해 `main.jsx` 에서 lodash 에 접근하여 순수 함수를 사용할 수 있습니다.
 
 ```js
 (function () {
