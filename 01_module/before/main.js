@@ -1,10 +1,10 @@
 (function () {
-  const $countInput = document.getElementById('count-input');
-  const $incrementButton = document.getElementById('increment');
-  const $decrementButton = document.getElementById('decrement');
+  var $countInput = document.getElementById('count-input');
+  var $incrementButton = document.getElementById('increment');
+  var $decrementButton = document.getElementById('decrement');
 
   (function main () {
-    const countModel = new CountModel()
+    var countModel = new CountModel()
 
     $countInput.value = countModel.getCount();
 
