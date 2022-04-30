@@ -6,5 +6,5 @@
 
 * [module : 모듈 패턴. ES Module](./01_module)
 * [dependency : 의존성 관리. Package Manager](./02_dependency)
-* [promise : 비동기 통신 처리](./03_promise)
+* [promise : 비동기 통신 처리. Promise/async await](./03_promise)
 * [framework : 상태 관리와 DOM 콘트롤. React](./04_framework)
