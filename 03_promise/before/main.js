@@ -1,7 +1,7 @@
 (function () {
   var $ipAddress = document.getElementById('ip-address')
 
-  function getMyIp (callback) {
+  function fetchMyIp (callback) {
     $.ajax({
       type: 'GET',
       url: 'https://api64.ipify.org?format=json',
@@ -19,5 +19,5 @@
     $ipAddress.innerText = ipAddressText
   }
 
-  getMyIp(renderIpAddress)
+  fetchMyIp(renderIpAddress)
 }())

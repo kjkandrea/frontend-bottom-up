@@ -10,7 +10,6 @@
     "vite": "^2.9.5"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
     "lodash.omit": "^4.5.0"
   }
 }
