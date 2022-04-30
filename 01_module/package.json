@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "start:before": "vite before",
-    "start:after": "vite after"
+    "start:after": "vite after",
+    "build:after": "vite build after"
   },
   "devDependencies": {
     "vite": "^2.9.5"
