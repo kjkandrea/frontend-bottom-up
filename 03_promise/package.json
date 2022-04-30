@@ -1,0 +1,16 @@
+{
+  "name": "02_dependency",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start:before": "vite before",
+    "start:after": "vite after"
+  },
+  "devDependencies": {
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash.omit": "^4.5.0"
+  }
+}
